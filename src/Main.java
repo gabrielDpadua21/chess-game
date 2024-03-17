@@ -1,11 +1,11 @@
-import board.Position;
+import board.Board;
 
 public class Main {
     public static void main(String[] args) {
         System.out.println("Chess Game!");
 
-        Position pos = new Position(1, 1);
+        Board board = new Board(10, 10);
 
-        System.out.println(pos.toString());
+
     }
 }
