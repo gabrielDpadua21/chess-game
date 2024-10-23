@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7f4a03b-6185-48c4-a88d-6fbf3ae64f46" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/game/pieces/Bishop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game/pieces/Horse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game/pieces/King.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game/pieces/Pawn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game/pieces/Queen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game/pieces/Rook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/board/BoardException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/board/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/Board.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/game/Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/Match.java" afterDir="false" />

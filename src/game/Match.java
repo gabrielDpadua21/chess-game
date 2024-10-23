@@ -6,7 +6,7 @@ import game.pieces.*;
 
 public class Match {
 
-    private Board board;
+    private final Board board;
 
     public Match() {
         board = new Board(8, 8);
@@ -40,5 +40,22 @@ public class Match {
         board.placePiece(new Pawn(this.board, Color.BLACK), new Position(1, 5));
         board.placePiece(new Pawn(this.board, Color.BLACK), new Position(1, 6));
         board.placePiece(new Pawn(this.board, Color.BLACK), new Position(1, 7));
+
+        board.placePiece(new Rook(this.board, Color.WHITE), new Position(7, 0));
+        board.placePiece(new Rook(this.board, Color.WHITE), new Position(7, 7));
+        board.placePiece(new Horse(this.board, Color.WHITE), new Position(7, 1));
+        board.placePiece(new Horse(this.board, Color.WHITE), new Position(7, 6));
+        board.placePiece(new Bishop(this.board, Color.WHITE), new Position(7, 2));
+        board.placePiece(new Bishop(this.board, Color.WHITE), new Position(7, 5));
+        board.placePiece(new King(this.board, Color.WHITE), new Position(7, 4));
+        board.placePiece(new Queen(this.board, Color.WHITE), new Position(7, 3));
+        board.placePiece(new Pawn(this.board, Color.WHITE), new Position(6, 0));
+        board.placePiece(new Pawn(this.board, Color.WHITE), new Position(6, 1));
+        board.placePiece(new Pawn(this.board, Color.WHITE), new Position(6, 2));
+        board.placePiece(new Pawn(this.board, Color.WHITE), new Position(6, 3));
+        board.placePiece(new Pawn(this.board, Color.WHITE), new Position(6, 4));
+        board.placePiece(new Pawn(this.board, Color.WHITE), new Position(6, 5));
+        board.placePiece(new Pawn(this.board, Color.WHITE), new Position(6, 6));
+        board.placePiece(new Pawn(this.board, Color.WHITE), new Position(6, 7));
     }
 }
