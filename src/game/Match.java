@@ -23,8 +23,12 @@ public class Match {
         return matrix;
     }
 
+    private void placeNewPiece(char column, int row, ChessPiece piece) {
+        board.placePiece(piece, new ChessPosition(row, column).toPosition());
+    }
+
     private void initialSetup() {
-        board.placePiece(new Rook(this.board, Color.BLACK), new Position(0, 0));
+        placeNewPiece('a', 8, new Rook(this.board, Color.BLACK));
         board.placePiece(new Rook(this.board, Color.BLACK), new Position(0, 7));
         board.placePiece(new Horse(this.board, Color.BLACK), new Position(0, 1));
         board.placePiece(new Horse(this.board, Color.BLACK), new Position(0, 6));
